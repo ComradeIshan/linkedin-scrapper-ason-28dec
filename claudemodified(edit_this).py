@@ -605,7 +605,7 @@ if __name__ == "__main__":
     # METHOD 1: Enter credentials here directly
     LINKEDIN_EMAIL = "aliayaan1719@gmail.com"      # ← Your LinkedIn email
     LINKEDIN_PASSWORD = "Red#label_187"             # ← Your LinkedIn password
-    GEMINI_API_KEY = "AIzaSyC74ZWzgB9hN3XR9RRiZlwlrJLpcVfw5hI"         # ← Your Gemini API key
+    GEMINI_API_KEY = ""         # ← Your Gemini API key
     TARGET_USERNAME = "reva-nimgaonkar"             # ← Target's LinkedIn username             important, you can change according to your need
     
     # METHOD 2: Or enter them interactively (uncomment below)
@@ -625,4 +625,5 @@ if __name__ == "__main__":
     
     # Run analyzer
     analyzer = LinkedInProfileAnalyzer(LINKEDIN_EMAIL, LINKEDIN_PASSWORD, GEMINI_API_KEY)
+
     analyzer.run_analysis(TARGET_USERNAME)
